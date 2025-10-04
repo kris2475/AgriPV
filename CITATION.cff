@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "OpV Research Node: MPPT & Spectroscopic Data Logger (ESP32)"
+version: v1.0.0
+doi: 10.5281/zenodo.17266828
+date-released: 2025-09-26 # Assuming the initial Zenodo release date from our history.
+url: "https://github.com/kris2475/Spectral-AgriPV-IoT"
+authors:
+  - given-names: "Krishna"
+    family-names: "Seunarine"
+    orcid: "https://orcid.org/0000-0001-8647-1345"
+preferred-citation:
+  type: software
+  title: "Initial Release of the OpV Research Node: Spectral-AgriPV-IoT (v1.0.0)"
+  authors:
+    - given-names: "Kris"
+      family-names: "Seunarine"
+      orcid: "https://orcid.org/0000-0001-8647-1345"
+  doi: 10.5281/zenodo.17266828
+  version: v1.0.0
+  date-released: 2025-09-26
+  url: "https://github.com/kris2475/Spectral-AgriPV-IoT/releases/tag/v1.0.0"
