@@ -111,7 +111,7 @@ This high-fidelity data provides the foundation for PV engineers to **tune OPV d
 
 ## Towards Smart, Self-Sustaining Systems
 
-By continuously logging synchronized **electrical, spectral, and environmental data**, the platform builds training datasets for advanced **ML/DL models**.  
+By continuously logging synchronised **electrical, spectral, and environmental data**, the platform builds training datasets for advanced **ML/DL models**.  
 
 These models enable:
 
