@@ -8,7 +8,7 @@ A robust, multi-sensor data acquisition and power management system built on the
     * **Pause MPPT at Night:** Automatically halts the algorithm when ambient light (Lux < 50), setting the load to a light "parking" value to prevent the shorting of the panel in the dark.
     * **Daybreak Reset:** Resets MPPT state variables when light returns, ensuring accurate tracking from the start of the day.
 * **Comprehensive Sensor Suite:** Collects data from five different sensors:
-    * **INA226:** Measures high-precision voltage, current, and power of the OpV panel.
+    * **INA226:** Measures high-precision voltage, current, and power of the OPV panel.
     * **C12880MA Spectrometer:** Captures detailed spectral data (288 channels) with **Adaptive Gain Control** to prevent sensor saturation.
     * **BME680:** Environmental monitoring (Temperature, Pressure, Humidity, and Gas Resistance).
     * **GY-30 (BH1750):** High-resolution ambient light measurement (Lux).
@@ -27,7 +27,7 @@ This project is built around the following main components:
 | Component | Function | Interface |
 | :--- | :--- | :--- |
 | **ESP32 Microcontroller** | Main processing unit | N/A |
-| **INA226 Power Sensor** | OpV V/I/P Measurement | I2C |
+| **INA226 Power Sensor** | OPV V/I/P Measurement | I2C |
 | **C12880MA Spectrometer** | Spectral Data Acquisition | Analog/Digital (SPI-like) |
 | **BME680 Environmental Sensor** | T/P/H/Gas Data | I2C |
 | **GY-30 (BH1750)** | Ambient Illuminance (Lux) | I2C |
