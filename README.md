@@ -108,5 +108,7 @@ The system logs a single line of data to `/SENSOR_LOG.CSV` at each sampling inte
 | **Spectrometer** | `Spectro_Saturation_Status`, `Spectro_IntegrationTime_us` | ADC status and current gain setting. |
 | **Spectrograph** | `Spectro_pix0`, `Spectro_pix1`, ..., `Spectro_pix287` | The full 288-channel raw spectral data. |
 
+ DOI: 10.5281/zenodo.17266828
+
 
 
