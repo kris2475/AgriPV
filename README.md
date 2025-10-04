@@ -4,7 +4,7 @@ A robust, multi-sensor data acquisition and power management system built on the
 
 ## ✨ Key Features
 
-* **Advanced MPPT with Low-Light Fix:** Implements a Perturb & Observe (P&O) MPPT algorithm for the OpV panel. Crucially, it includes an integrated fix to:
+* **Advanced MPPT with Low-Light Fix:** Implements a Perturb & Observe (P&O) MPPT algorithm for the OPV panel. Crucially, it includes an integrated fix to:
     * **Pause MPPT at Night:** Automatically halts the algorithm when ambient light (Lux < 50), setting the load to a light "parking" value to prevent the shorting of the panel in the dark.
     * **Daybreak Reset:** Resets MPPT state variables when light returns, ensuring accurate tracking from the start of the day.
 * **Comprehensive Sensor Suite:** Collects data from five different sensors:
