@@ -69,7 +69,7 @@ The core communication busses and control lines are as follows:
 
 ### 3. Configuration & Tuning
 
-Key parameters are defined at the top of the sketch. Adjust these as necessary for your specific OpV panel and environment (e.g., in the file `config.h` or directly in the main sketch):
+Key parameters are defined at the top of the sketch. Adjust these as necessary for your specific OPV panel and environment (e.g., in the file `config.h` or directly in the main sketch):
 
 * **WiFi Credentials:**
     ```cpp
