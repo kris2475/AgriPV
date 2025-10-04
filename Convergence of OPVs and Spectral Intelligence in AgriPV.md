@@ -5,7 +5,7 @@ The future of sustainable agriculture hinges on the synergy between advanced mat
 ---
 
 ## Why OPVs?
-OPVs offer distinct advantages over rigid silicon:
+OPVs offer distinct advantages over rigid silicon PVs:
 
 - **Lightweight**
 - **Mechanically flexible**
