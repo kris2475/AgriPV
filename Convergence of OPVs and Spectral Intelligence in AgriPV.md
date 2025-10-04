@@ -5,6 +5,7 @@ The future of sustainable agriculture hinges on the synergy between advanced mat
 ---
 
 ## Why OPVs?
+
 OPVs offer distinct advantages over rigid silicon PVs:
 
 - **Lightweight**
@@ -21,6 +22,7 @@ This dual role enables simultaneous **energy generation** and **crop yield optim
 ---
 
 ## The Challenge: Solar Degradation
+
 A significant challenge for OPV deployment is **solar degradation**. Unlike traditional PV, OPVs suffer from complex deterioration pathways caused by:
 
 - Photo-oxidation  
@@ -28,11 +30,13 @@ A significant challenge for OPV deployment is **solar degradation**. Unlike trad
 - Moisture ingress  
 
 This leads to a measurable decline in performance over time.  
-Effectively combating and modelling this degradation requires **abundant, synchronized, high-fidelity data**—precisely the goal of your **low-cost IoT platform**.
+
+Effectively combating and modelling this degradation requires **abundant, synchronized, high-fidelity data**—precisely the goal of the **low-cost IoT sensing platform**.
 
 ---
 
 ## Maximum Power Point Tracking (MPPT)
+
 To ensure every photon is maximised despite fluctuating conditions and degradation:
 
 - **MPPT is essential**.  
@@ -40,7 +44,9 @@ To ensure every photon is maximised despite fluctuating conditions and degradati
 - This allows the system to continuously lock onto the **maximum power point**.  
 
 ### Low-Light Fix
-A key adaptation in your **ESP32-based design** is the **low-light fix**:
+
+A key adaptation in the **ESP32-based design** is the **low-light fix**:
+
 - Pauses the P&O routine at night  
 - Resets the system at dawn  
 - Prevents inefficient operation  
@@ -55,12 +61,14 @@ The light environment within a polytunnel is **highly dynamic**—its manipulati
 ---
 
 ## Light Quality and Polytunnel Albedo
+
 Polytunnel films act as critical **spectral filters**:
 
 - **Standard films** block much UV radiation, sometimes reducing crop nutritional quality (e.g., phenolic compounds) compared to open-field systems.  
 - **Photo-selective films** are engineered to enhance or diffuse specific wavelengths (e.g., **red/far-red ratios**) that drive growth.  
 
 **Examples:**
+
 - **Blue light** → vegetative growth  
 - **Red light** → flowering and fruiting  
 - Crops like **tomatoes, peppers, cucumbers** thrive with high light requirements.  
@@ -70,39 +78,45 @@ The **overall albedo** (total reflected incoming light) depends not only on the 
 ---
 
 ## The Crop-as-Sensor Feedback Loop
+
 The crop canopy acts as a **spectral sensor**:
 
-- Healthy, chlorophyll-rich leaves:
-  - Absorb **red and blue light**
+- Healthy, chlorophyll-rich leaves:  
+  - Absorb **red and blue light**  
   - Reflect strongly in **green and NIR** regions  
-- Stressed plants (water deficiency, pests, disease):
+
+- Stressed plants (water deficiency, pests, disease):  
   - Reduced chlorophyll → shifts in reflected spectrum  
   - Detectable via albedo measurements  
 
 ---
 
-# Powering Intelligence: The OPV-IoT-Spectra Connection
+# Data Acquisition and Spectral Intelligence: The OPV-IoT-Spectra Connection
 
-Here is where **PV-powered IoT** in AgriPV and polytunnels shows its true innovation:
+Here is where the integrated sensing platform in AgriPV and polytunnels shows its true innovation:
 
-- The **ambient light** is both:
-  - The **energy source** for the OPV array  
-  - The **signal** analyzed by the C12880MA Spectrometer  
+The **ambient light** is both:
 
-This enables:
+- The **energy source** for the OPV array  
+- The **signal** analysed by the **C12880MA MEMS Spectrometer**  
 
-- Powering the **ESP32 microcontroller** and **INA226 power sensor**  
-- Capturing a **spectral fingerprint** of both crop health and OPV performance  
+The platform, built around the **ESP32 microcontroller** and **INA226 power sensor**, allows for the simultaneous acquisition of critical data:
+
+- Logging the **electrical performance** of the OPV module under real-world conditions  
+- Capturing a **spectral fingerprint** of the ambient light and the crop canopy health  
+
+This high-fidelity data provides the foundation for PV engineers to **tune OPV designs**—optimising their spectral transparency to the specific light requirements of crops within AgriPV and polytunnel environments.
 
 ---
 
 ## Towards Smart, Self-Sustaining Systems
-By continuously logging synchronized **electrical, spectral, and environmental data**, you are building training datasets for advanced **ML/DL models**.  
+
+By continuously logging synchronized **electrical, spectral, and environmental data**, the platform builds training datasets for advanced **ML/DL models**.  
 
 These models enable:
+
 - **Predictive modelling** of OPV aging  
 - **Actionable insights** for crop management  
 
 Ultimately transforming polytunnels into **smart, self-sustaining energy and food production units**.
 
----
