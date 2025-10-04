@@ -14,9 +14,9 @@ OPVs offer distinct advantages over rigid silicon PVs:
 This unique trait allows researchers to design **semi-transparent solar cells** that both:
 
 1. Generate electricity  
-2. Optimize the light spectrum transmitted to crops beneath  
+2. Optimise the light spectrum transmitted to crops beneath  
 
-This dual role enables simultaneous **energy generation** and **crop yield optimization**.
+This dual role enables simultaneous **energy generation** and **crop yield optimisation**.
 
 ---
 
@@ -33,7 +33,7 @@ Effectively combating and modelling this degradation requires **abundant, synchr
 ---
 
 ## Maximum Power Point Tracking (MPPT)
-To ensure every photon is maximized despite fluctuating conditions and degradation:
+To ensure every photon is maximised despite fluctuating conditions and degradation:
 
 - **MPPT is essential**.  
 - The widely used **Perturb and Observe (P&O)** algorithm operates by making small, iterative changes (perturbations) to the panel’s voltage and observing whether power output increases or decreases.  
@@ -50,7 +50,7 @@ A key adaptation in your **ESP32-based design** is the **low-light fix**:
 
 # Spectral Dynamics and Crop Health in Polytunnels
 
-The light environment within a polytunnel is **highly dynamic**—its manipulation is crucial for maximizing **both energy efficiency and crop productivity**.
+The light environment within a polytunnel is **highly dynamic**—its manipulation is crucial for maximising **both energy efficiency and crop productivity**.
 
 ---
 
