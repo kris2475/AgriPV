@@ -1,6 +1,6 @@
 # ☀️ OpV Research Node: MPPT & Spectroscopic Data Logger (ESP32)
 
-A robust, multi-sensor data acquisition and power management system built on the **ESP32** platform, specifically designed for **Organic Photovoltaic (OpV)** research. It implements an advanced **Maximum Power Point Tracking (MPPT)** algorithm with a unique **low-light fix** and logs comprehensive sensor data, including full spectral scans, to an SD card with **NTP timestamping**.
+A robust, multi-sensor data acquisition and power management system built on the **ESP32** platform, specifically designed for **Organic Photovoltaic (OPV)** research. It implements an advanced **Maximum Power Point Tracking (MPPT)** algorithm with a unique **low-light fix** and logs comprehensive sensor data, including full spectral scans, to an SD card with **NTP timestamping**.
 
 ## ✨ Key Features
 
